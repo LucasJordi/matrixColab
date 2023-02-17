@@ -1,0 +1,14 @@
+.title{
+  font-size: 24px;
+  font-weight: 600;
+}
+.imgClass{
+  height: 100%;
+}
+
+.toolBarHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}

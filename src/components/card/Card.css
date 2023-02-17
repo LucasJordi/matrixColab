@@ -1,0 +1,99 @@
+.cardContainer{
+    width:100vw;
+    min-height:100px;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.cardTop{
+    width:90%;
+    min-height:30px;      
+    padding:10px;
+    display: flex;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.cardItens{
+    width:90%;
+    height:auto;   
+    border-bottom-left-radius:10px !important;
+    border-bottom-right-radius: 10px;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+
+}
+
+.colorCard2{
+    background-color: #fe7125;
+}
+
+.cardText{
+    color:white;
+    font-weight:bold;
+    font-size:16px
+}
+
+.addButton{
+    position:absolute;
+    background-color:gray;
+    border-radius:10px;
+    display: flex;
+    width:auto;
+    height:auto;
+    padding:1%;
+    justify-content:center;
+    align-items:center;
+    right:10px;
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+
+}
+.iconAdd{
+    font-size: 20px;
+    font-weight: bold;
+    color: white !important;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;  
+}
+
+.listCard{
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.itemIonCard{
+    background: transparent;
+    
+    text-transform: uppercase;
+
+    
+}
+.borderBtn{
+    border-bottom: 1px solid gray;
+}
+
+.addButton:active::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

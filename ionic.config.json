@@ -1,0 +1,7 @@
+{
+  "name": "matrixColab",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

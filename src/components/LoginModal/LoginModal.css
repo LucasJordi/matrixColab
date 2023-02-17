@@ -1,0 +1,143 @@
+ion-modal#example-modal {
+    --width: fit-content;
+    --min-width: 30%;
+    --height: fit-content;
+    --min-height: 70%;
+    --border-radius: 10px;
+    --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+    
+  }
+  
+  ion-modal#example-modal h1 {
+    margin: 20px 20px 10px 20px;
+  }
+  
+  ion-modal#example-modal ion-icon {
+    margin-right: 6px;
+  
+    width: 48px;
+    height: 48px;
+  
+    padding: 4px 0;
+  
+    color: #aaaaaa;
+  }
+  
+  ion-modal#example-modal .wrapper {
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .modalWrapper{
+    width: 100%;
+    height: 100%;
+    padding: 90px 0 90px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .inputModal{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 200px !important;
+    width: 100%;
+
+    margin:10px 0 10px 0;
+  }
+  .inputModalBtn{
+    background-color:rgb(108, 122, 137);
+    width:60%;
+    height:50px;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    color: white !important;
+  }
+  .inputModalBtnAbsolute{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 0
+  }
+
+
+
+
+  .containerLogin{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.listLogin{
+    width: 100%;
+    height: auto;
+    background:transparent
+}
+.imgLogo{
+    width: 70%;
+    margin-top: 150px;
+
+
+}
+.btnL{
+    border-radius: 40px;
+    width: 50%;
+    height: 50px ;
+}
+.tittle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.forgotPassClass{
+    color: rgb(4, 97, 228);
+    text-decoration: underline;
+}
+.inputLogin{
+    --border-width: 1px;
+    --border-radius: 10px;
+}
+.itemLogin{
+    border-radius: 10px;
+    border-color: gray;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    --background: transparent;
+}
+
+
+ion-input.inputLogin {
+    --color: black;
+    --placeholder-color: #ddd;
+    --padding-start: 10px;
+    --padding-top: 10px;
+    border-radius: 10px;
+  }
+
+@media (min-width:800px) {
+    .containerLogin{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    
+}
+
+@media (min-width:1000px) {
+    .containerLogin{
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    .itemLogin ion-label{
+        font-size: 25px !important;
+    }
+
+    
+}
